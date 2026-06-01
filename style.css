@@ -1,0 +1,82 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{
+    background-color: #F5F5F5;
+     font-family: "Fira Sans", sans-serif;
+}
+header{
+    
+    padding: 24px 0;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+.logo a{
+    text-decoration: none;
+    color: #0E0E0E;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.link-parent{
+    display: flex;
+    gap: 20px;
+}
+
+.link-parent li{
+    list-style: none;
+}
+.link-parent li a{
+
+    text-decoration: none;
+}
+
+.nav-bar button{
+    color: #006A50;
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: ;
+}
+.header-top{
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    border-radius: 8px;
+}
+.bd2{
+    color: #0e0e0e77;
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.header-slogan h1{
+    font-size: 50px;
+    color: #0E0E0E;
+    font-weight: 700;
+
+}
+
+.header-left button{
+background-color: #006A50;
+color: #ffff;
+font-size:18px ;
+font-weight: 600;
+padding: 17px 34px;
+border: none;
+border-radius: 8px;
+margin-top: 16px;
+}
+
+.header-right img{
+    max-width: 475px;
+}
