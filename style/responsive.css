@@ -1,0 +1,32 @@
+
+@media (max-width: 792px) {
+  .hero-section{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-left{
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .header-left p{
+    font-size: 35px;
+  }
+
+  .pillar-card {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.feature-card{
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+    max-width: 70%;
+}
+
+
+
+
+}
