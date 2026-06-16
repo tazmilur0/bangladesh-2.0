@@ -132,7 +132,6 @@ border-radius: 16px;
 }
 .card img{
     max-width: 64px;
-    
 }
 .card .card-title{
     font-size: 20px ;
@@ -149,12 +148,6 @@ border-radius: 16px;
 .feature-title{
 font-size: 2.5rem;
 }
-.feature p{
-
-}
-
-
-
 
 .feature-card{
     display: flex;
@@ -190,12 +183,20 @@ font-size: 2.5rem;
     font-weight: 400;
     color: #0E0E0E;
     opacity: 60%;
+    margin-top: 10px;
 }
 .section-content h4{
     font-weight: 600;
     color: #0E0E0E;
     opacity: 80%;
     font-size: 1.2rem;
+}
+.section-content i{
+   position: absolute;
+   font-size: 70px;
+   color: #0E0E0E;
+   opacity: 30%;
+   margin-top: -15px;
 }
 
 
