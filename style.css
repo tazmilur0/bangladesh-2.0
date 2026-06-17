@@ -77,6 +77,10 @@ nav{
     font-size: 18px;
     text-transform: capitalize;
 }
+.nav-bar button a{
+    text-decoration: none;
+    color: #006A50;
+}
 .hero-section{
     display: flex;
     justify-content: space-between;
@@ -148,6 +152,10 @@ border-radius: 16px;
 .feature-title{
 font-size: 2.5rem;
 }
+.feature p{
+    color: #0E0E0E;
+    opacity: 70%;
+}
 
 .feature-card{
     display: flex;
@@ -173,41 +181,81 @@ font-size: 2.5rem;
 }
 
 
-.section-content{
+.section-text{
     background-color: #ffffff;
     padding: 24px;
     border-radius: 16px;
 }
-.section-content p{
+.section-text p{
     line-height: 24px;
     font-weight: 400;
     color: #0E0E0E;
     opacity: 60%;
     margin-top: 10px;
 }
-.section-content h4{
+.section-text h4{
     font-weight: 600;
     color: #0E0E0E;
     opacity: 80%;
     font-size: 1.2rem;
 }
-.section-content i{
+.section-text i{
    position: absolute;
    font-size: 70px;
    color: #0E0E0E;
    opacity: 30%;
    margin-top: -15px;
 }
+.matters-section h4{
+    font-size:2.6rem ;
+    color: #0E0E0E;
+    font-weight: 700;
+}
+
+.matters-table{
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+table{
+    width: 100%;
+}
+table thead,select{
+    background-color: #C6E4D6;
+}
+table thead{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+table ,tbody tr td{
+    border: 2px solid #0e0e0e21;
+    border-collapse: collapse;
+}
+table thead td{
+    padding: 5px 24px;
+}
+table tbody td{
+    padding: 24px;
+}
 
 
+.matters-title{
+    padding: 25px 0;
+    margin-top: 55px;
+}
 
-
-
-
-
-
-
-
+table select{
+    
+    padding: 10px;
+    font-weight: 600;
+    outline: none;
+    border-radius: 5px;
+}
+.center{
+    width: 10%;
+    text-align: center;
+}
 
 
 
