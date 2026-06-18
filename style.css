@@ -106,13 +106,17 @@ nav{
     padding: 100px;
     background-color: #C6E4D6;
     border-radius: 24px;
+    background-image: linear-gradient(rgba(2, 255, 2, 0.4),rgba(203, 37, 37,0.8)), url("./assets/hero-bacground.jpg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
 }
 .bd2{
-    color: #0e0e0e77;
+    color: #0e0e0eb8;
     text-transform: capitalize;
     font-size: 24px;
     font-weight: 500;
-    text-shadow: -1px -2px #0e0e0e77;
+    text-shadow: -1px -1px #0e0e0e77;
 }
 
 .header-slogan p{
@@ -325,6 +329,7 @@ table select{
    width: 900px;
    outline: none;
    border:none ;
+   border-radius: 5px;
    text-align: center;
    font-size: 1.3rem;
    font-weight: 400;
@@ -338,7 +343,7 @@ table select{
 .news-latter-parent{
     text-align: center;
     background-color: #C6E4D6;
-    padding: 80px 100px;
+    padding: 60px 100px;
     margin: 80px 0;
     border-radius: 24px;
 }
