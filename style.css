@@ -18,7 +18,7 @@ border: none;
 border-radius: 8px;
 margin-top: 16px;
 }
-body p{
+body p,span{
     opacity: 70%;
     line-height: 1.5rem;
 }
@@ -84,7 +84,7 @@ nav{
     background-color:#C6E4D6;
     padding: 10px;
     border-radius:8px ;
-    color: #000;
+    color: #0E0E0E;
 }
 
 .nav-bar button{
@@ -257,6 +257,36 @@ table select{
 }
 
 
+/* Recent news section */
+.news-card{
+    display:flex;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+    margin: 24px 0;
+    background-color: #fff;
+    border-radius: 24px;
 
-
-
+}
+.news-card .satelite-image{
+    border-radius:24px ;
+    width:408px ;
+    height: 306px;
+}
+.news-card-info{
+    display: flex;
+    flex-direction: column;
+    gap:11px;
+    
+}
+.news-card-info img{
+    width: 130px;
+}
+.news-btn{
+    width: 150px;
+    font-size: 1rem;
+}
+.date-time-parent{
+    display: flex;
+    gap: 15px;
+}
