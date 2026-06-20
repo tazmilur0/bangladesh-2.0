@@ -1,10 +1,11 @@
 *{
 padding: 0;
 margin: 0;
+font-family: "Fira Sans", sans-serif;
 }
 body{
     background-color: #F5F5F5;
-    font-family: "Fira Sans", sans-serif;
+    
 }
 
 /* Comman Class */
@@ -17,7 +18,10 @@ padding: 15px 34px;
 border: none;
 border-radius: 8px;
 margin-top: 16px;
+cursor: pointer;
+transition: all 0.3s ease;
 }
+
 body p,span{
     opacity: 70%;
     line-height: 1.5rem;
@@ -25,6 +29,7 @@ body p,span{
 .container{
     max-width: 1280px;
     margin: auto;
+    padding: 0 20px;
 }
 /* Color */
 .blue{
@@ -94,10 +99,18 @@ nav{
     border-radius: 5px;
     font-size: 18px;
     text-transform: capitalize;
+     cursor: pointer;
+    transition: all 0.3s ease;
+}
+.nav-bar button:hover {
+    background-color: #006A50;
 }
 .nav-bar button a{
     text-decoration: none;
     color: #006A50;
+}
+.nav-bar button:hover a {
+    color: #ffffff;
 }
 .hero-section{
     display: flex;
@@ -108,7 +121,7 @@ nav{
     border-radius: 24px;
     background-image: linear-gradient(rgba(2, 255, 2, 0.4),rgba(203, 37, 37,0.8)), url("./assets/hero-bacground.jpg");
     background-repeat: no-repeat;
-    background-position: 100%;
+    background-position: center;
     background-size: cover;
 }
 .bd2{
@@ -143,12 +156,15 @@ nav{
 .pillar-card {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 .pillar-card .card{
     background-color: #ffff;
     padding: 24px;
     border: 1px solid rgba(210, 209, 209, 0.749);
     border-radius: 16px;
+    flex: 1;
+    min-width: 200px;
 }
 .card img{
     max-width: 64px;
@@ -195,15 +211,15 @@ nav{
 
 .section-text{
     background-color: #ffffff;
-    padding: 24px;
+    padding: 30px;
     border-radius: 16px;
+    position: relative;
 }
 .section-text p{
     line-height: 24px;
     font-weight: 400;
     color: #0E0E0E;
     opacity: 60%;
-    margin-top: 10px;
 }
 .section-text h4{
     font-weight: 600;
@@ -216,7 +232,8 @@ nav{
    font-size: 70px;
    color: #0E0E0E;
    opacity: 30%;
-   margin-top: -15px;
+   top: -5px;
+   left: 20px;
 }
 
 .matters-table{
@@ -235,7 +252,7 @@ table thead{
     font-weight: 600;
 }
 
-table ,tbody tr td{
+table, tbody tr td{
     border: 2px solid #0e0e0e21;
     border-collapse: collapse;
 }
@@ -366,9 +383,13 @@ table select{
     color: #fff;
     font-weight: 400;
     font-size: 1.1rem;
+    cursor: pointer;
 }
 
-
+.all-button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
 
 /* footer section */
 footer{
